@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mubas\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mubas\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LMS.-620702700.00" t="ExcludeRecursive" />
+    <e p="E:\Windows LMS\LMS" t="IncludeRecursive">
+      <e p="app.manifest" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="Doctor1.jpg" t="Include" />
+        <e p="LockScreenLogo.scale-200.png" t="Include" />
+        <e p="SplashScreen.scale-200.png" t="Include" />
+        <e p="Square150x150Logo.scale-200.png" t="Include" />
+        <e p="Square44x44Logo.scale-200.png" t="Include" />
+        <e p="Square44x44Logo.targetsize-24_altform-unplated.png" t="Include" />
+        <e p="StoreLogo.png" t="Include" />
+        <e p="Wide310x150Logo.scale-200.png" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="LMS.csproj" t="IncludeRecursive" />
+      <e p="LMS.sln" t="IncludeFlat" />
+      <e p="MainWindow.xaml" t="Include" />
+      <e p="MainWindow.xaml.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="x64" t="Include">
+          <e p="Debug" t="Include">
+            <e p="net6.0-windows10.0.19041.0" t="Include">
+              <e p="win10-x64" t="Include">
+                <e p="App.g.cs" t="Include" />
+                <e p="App.g.i.cs" t="Include" />
+                <e p="LMS.AssemblyInfo.cs" t="Include" />
+                <e p="MainWindow.g.cs" t="Include" />
+                <e p="MainWindow.g.i.cs" t="Include" />
+                <e p="Pages" t="Include">
+                  <e p="DoctorDetails.g.cs" t="Include" />
+                  <e p="DoctorDetails.g.i.cs" t="Include" />
+                  <e p="Doctors.g.cs" t="Include" />
+                  <e p="Doctors.g.i.cs" t="Include" />
+                  <e p="HomePage.g.cs" t="Include" />
+                  <e p="HomePage.g.i.cs" t="Include" />
+                  <e p="Patient" t="Include">
+                    <e p="patient_details.g.cs" t="Include" />
+                    <e p="patient_details.g.i.cs" t="Include" />
+                    <e p="Patients.g.cs" t="Include" />
+                    <e p="Patients.g.i.cs" t="Include" />
+                  </e>
+                  <e p="Settings.g.cs" t="Include" />
+                  <e p="Settings.g.i.cs" t="Include" />
+                </e>
+                <e p="Windows" t="Include">
+                  <e p="LoginWindow.g.cs" t="Include" />
+                  <e p="LoginWindow.g.i.cs" t="Include" />
+                </e>
+                <e p="XamlTypeInfo.g.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Package.appxmanifest" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="DoctorDetails.xaml" t="Include" />
+        <e p="DoctorDetails.xaml.cs" t="Include" />
+        <e p="Doctors.xaml" t="Include" />
+        <e p="Doctors.xaml.cs" t="Include" />
+        <e p="HomePage.xaml" t="Include" />
+        <e p="HomePage.xaml.cs" t="Include" />
+        <e p="Patient" t="Include">
+          <e p="patient_details.xaml" t="Include" />
+          <e p="patient_details.xaml.cs" t="Include" />
+          <e p="Patients.xaml" t="Include" />
+          <e p="Patients.xaml.cs" t="Include" />
+        </e>
+        <e p="Settings.xaml" t="Include" />
+        <e p="Settings.xaml.cs" t="Include" />
+      </e>
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+        <e p="PublishProfiles" t="Include">
+          <e p="win10-arm64.pubxml" t="Include" />
+          <e p="win10-x64.pubxml" t="Include" />
+          <e p="win10-x86.pubxml" t="Include" />
+        </e>
+      </e>
+      <e p="Windows" t="Include">
+        <e p="LoginWindow.xaml" t="Include" />
+        <e p="LoginWindow.xaml.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LMS (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LMS (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

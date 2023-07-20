@@ -1,0 +1,61 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="LMS.Pages.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LMS.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Text="Account Settings" Style="{StaticResource SubheaderTextBlockStyle}"/>
+        
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Left" Margin="16">
+            <TextBlock Text="Change Password" Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,8"/>
+                <PasswordBox x:Name="PasswordBox" MaxWidth="300" PlaceholderText="New Password"/>
+                <PasswordBox x:Name="ConfirmPasswordBox" MaxWidth="300"  PlaceholderText="Confirm New Password" Margin="0,8,0,0"/>
+            <Button Content="Save Changes" Click="SavePasswordButton_Click" Margin="0,16,0,0"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Orientation="Vertical" Margin="16">
+                <ToggleSwitch x:Name="ThemeToggle"
+              Header="Dark theme"
+              Toggled="ThemeToggle_Toggled" />
+        </StackPanel>
+         
+         <StackPanel Grid.Row="3" Orientation="Vertical" Margin="16">
+            <TextBlock Text="Email Preferences" Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,8"/>
+            <CheckBox x:Name="MarketingEmailsCheckBox" Content="Receive Marketing Emails" Margin="0,8,0,0"/>
+            <CheckBox x:Name="NewsletterCheckBox" Content="Subscribe to Newsletter" Margin="0,8,0,0"/>
+            <Button Content="Save Changes" Click="SaveEmailPreferencesButton_Click" Margin="0,16,0,0"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="4" Orientation="Vertical" Margin="16">
+            <TextBlock Text="Notification Settings" Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,8"/>
+            <CheckBox x:Name="PushNotificationsCheckBox" Content="Enable Push Notifications" Margin="0,8,0,0"/>
+            <CheckBox x:Name="EmailNotificationsCheckBox" Content="Enable Email Notifications" Margin="0,8,0,0"/>
+            <Button Content="Save Changes" Click="SaveNotificationSettingsButton_Click" Margin="0,16,0,0"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="5" Orientation="Vertical" Margin="16">
+            <TextBlock Text="Delete Account" Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,8"/>
+            <Button Content="Delete My Account" Click="DeleteAccountButton_Click" Margin="0,16,0,0" Foreground="Red"/>
+        </StackPanel>
+        
+    </Grid>
+    </ScrollViewer>
+</Page>
